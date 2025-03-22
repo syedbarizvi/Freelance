@@ -11,6 +11,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    background-color:#d6c9ff;
 }
 
 /* Top Bar */
@@ -39,6 +40,7 @@ header {
     padding: 0; /* Remove padding to prevent extra spacing */
     display: flex; /* Change from flex to block to stack elements */
     width: 100%;
+    background-color:#d6c9ff;
 }
 
 
