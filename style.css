@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+   
 }
 
 /* General Styles */
@@ -24,14 +24,14 @@ body {
     font-size: 14px;
     text-align: center;
     width: 100%;
-    /* display: block; */
+    
 }
 
 #quiz{
     color: white;
     text-decoration:underline;
     text-underline-offset: 10px;
-    /* font-size:5px; */
+    
 }
 
 /* Header */
@@ -65,7 +65,7 @@ header {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    /* gap: 150px; */
+    
 }
 
 #course{
@@ -81,6 +81,7 @@ header {
     display: flex;
     gap: 20px; /* Adds spacing between list items */
     align-items: center;
+    font-size: 15px;
 }
 
 #nav-menu, #nav-icon{
@@ -152,4 +153,9 @@ header {
     font-weight: bold;
     border: 2px solid black;
     border-radius: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
